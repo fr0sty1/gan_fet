@@ -390,7 +390,7 @@
     (property "Sheetname" "")
     (path "/91471996-4c6d-485e-b448-6904dece7e73")
     (attr smd)
-    (fp_text reference "Q1" (at -0.544472 -1.435427 45 unlocked) (layer "B.SilkS")
+    (fp_text reference "Q1" (at 0.3 -1.6 315 unlocked) (layer "B.SilkS")
       (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
       (tstamp 69a3add9-0635-47c1-a41f-6187c81b26b5)
     )
@@ -398,7 +398,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.1)))
       (tstamp b6273405-d52f-4846-8dd5-7a9140a42cf9)
     )
-    (fp_text user "${REFERENCE}" (at 0.95 -1.905 45 unlocked) (layer "B.Fab")
+    (fp_text user "${REFERENCE}" (at 1.6 -1.6 315 unlocked) (layer "B.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
       (tstamp 1bf0e8a8-3b25-458c-ba63-1cddf613dd21)
     )
@@ -416,10 +416,10 @@
       (net 7 "/fetGate") (pinfunction "G") (pintype "input") (solder_mask_margin -0.05) (solder_paste_margin -0.025) (zone_connect 2) (tstamp 2b89fcfa-806b-4905-84c7-43e97624e24f))
     (pad "4" smd roundrect (at 0.675 -0.675 135) (size 0.287 0.287) (property pad_prop_bga) (layers "B.Cu" "B.Paste") (roundrect_rratio 0.3333344948)
       (net 4 "/drain") (pinfunction "D") (pintype "passive") (solder_mask_margin -0.05) (solder_paste_margin -0.025) (zone_connect 2) (tstamp 0c02e23f-a202-4c0e-bec7-e56eb77e4a24))
-    (model "/home/frosty/Downloads/D0353.step"
-      (offset (xyz 5 4.575 0))
+    (model "${KIPRJMOD}/epc2036.step"
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
+      (rotate (xyz 0 0 90))
     )
   )
 
