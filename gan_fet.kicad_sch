@@ -707,6 +707,7 @@
     )
   )
 
+
   (junction (at 125.73 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 1e0615be-e785-4af4-ac05-879b3d6404bf)
   )
@@ -1292,7 +1293,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c124c07e-0c02-484c-a86c-cd4a118597df)
     (property "Reference" "J5" (id 0) (at 66.675 133.384 0))
-    (property "Value" "" (id 1) (at 66.675 135.9209 0))
+    (property "Value" "Mounting Hole" (id 1) (at 66.675 135.9209 0))
     (property "Footprint" "" (id 2) (at 66.04 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1306,7 +1307,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d3c1261b-6036-41d7-b48a-f70da20b76d9)
     (property "Reference" "J6" (id 0) (at 66.675 142.271 0))
-    (property "Value" "" (id 1) (at 66.675 142.2709 0)
+    (property "Value" "Conn_01x01_Male" (id 1) (at 66.675 142.2709 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "" (id 2) (at 66.04 143.51 0)
